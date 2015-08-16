@@ -23,7 +23,23 @@ use Khill\Lavacharts\Exceptions\InvalidConfigValue;
 use Khill\Lavacharts\Exceptions\InvalidEventCallback;
 use Khill\Lavacharts\Exceptions\InvalidDivDimensions;
 use Khill\Lavacharts\Exceptions\InvalidConfigProperty;
-
+/**
+ * Class Lavacharts
+ *
+ * @package Khill\Lavacharts
+ *
+ * @method DataTable
+ * @method Charts\AreaChart AreaChart(string $param1)
+ * @method Charts\BarChart BarChart(string $param1)
+ * @method Charts\CalendarChart CalendarChart(string $param1)
+ * @method Charts\ColumnChart ColumnChart(string $param1)
+ * @method Charts\ComboChart ComboChart(string $param1)
+ * @method Charts\PieChart PieChart(string $param1)
+ * @method Charts\DonutChart DonutChart(string $param1)
+ * @method Charts\GaugeChart GaugeChart(string $param1)
+ * @method Charts\GeoChart GeoChart(string $param1)
+ * @method Charts\LineChart LineChart(string $param1)
+ */
 class Lavacharts
 {
     /**
